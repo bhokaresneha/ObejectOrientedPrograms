@@ -30,10 +30,10 @@ class DeckOfCards
     }
 
     public void getPlayerArray(){
-        int i;
-        int j;
-        for( i=0;i<4;i++){
-            System.out.println("\nPlayers " +(i+1));
+        int i,j;
+       
+        for( i=1;i<=4;i++){
+            System.out.println("\nPlayers " +(i));
             for(j=0;j<9;j++){
                 Random random = new Random();
                 // generating random suits and ranks
